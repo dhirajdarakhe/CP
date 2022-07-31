@@ -1,5 +1,6 @@
 
 
+
 const int N = 10e+3;
 vector<int> g[N];
 int vis[N];
