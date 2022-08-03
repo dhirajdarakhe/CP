@@ -18,7 +18,7 @@ bool BFS_bipaterate(int source) {
             if (vis[it] == 0) {
                 vis[it] = 1;
                 col[it] = !curt_colo;
-                q.push({it, !curt_colo}); // i will node and its color 
+                q.push({it, !curt_colo}); // i will push node and its color 
 
             }
             else if (vis[it] == 1 && col[it] == curt_colo) {
