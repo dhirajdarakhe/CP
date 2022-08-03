@@ -9,6 +9,7 @@ bool bfs(int source) {
     while (!q.empty()) {
         int child = q.front().first;
         int pare = q.front().second;
+        q.pop();
         for (auto it : graph[child]) {
             if (vis[it] == 1 && it != pare) return true;
             if (!vis[it]) {
