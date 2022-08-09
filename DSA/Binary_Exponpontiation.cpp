@@ -29,3 +29,17 @@ ll binaryExpoRRec(ll a, ll b)
     }
     return res * res;
 }
+
+// for  serial calculation;
+ll mul(ll x, ll y)
+{
+    return (x * y) % M;
+}
+ll add(ll x, ll y)
+{
+    return (x + y) % M;
+}
+ll sub(ll x, ll y)
+{
+    return (x%mod - y%mod + M) % M;
+}
