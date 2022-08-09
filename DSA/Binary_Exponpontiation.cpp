@@ -41,5 +41,5 @@ ll add(ll x, ll y)
 }
 ll sub(ll x, ll y)
 {
-    return (x%mod - y%mod + M) % M;
+    return (x % M - y % M + M) % M;
 }
