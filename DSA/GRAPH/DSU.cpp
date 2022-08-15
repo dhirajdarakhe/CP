@@ -1,4 +1,6 @@
-
+ 
+ 
+ //  EQ
 struct DisjointSet
 {
     v64 parent;
@@ -17,7 +19,7 @@ struct DisjointSet
     {
         if (x == parent[x])
             return x;
-        return parent[x] = find_set(parent[x]);
+        return parent[x] = find_set(parent[x]); // path compression 
     }
     void union_set(ll a, ll b)
     {
@@ -25,10 +27,10 @@ struct DisjointSet
         b = find_set(b);
         if (a != b)
         {
-            if (size[a] < size[b])
+            if (size[a] < size[b])  // size compression
                 swap(a, b);
             parent[b] = a;
-            size[a] += size[b];
+            size[a] += size[b]; 
         }
     }
 };
