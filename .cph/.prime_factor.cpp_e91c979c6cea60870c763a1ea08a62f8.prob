@@ -1,0 +1,1 @@
+{"name":"Local: prime_factor","url":"c:\\Users\\dhira\\zz_SEM_4\\c++\\prime_factor.cpp","tests":[{"id":1647267136044,"input":"36","output":"2 \n3"},{"id":1647267166998,"input":"35","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dhira\\zz_SEM_4\\c++\\prime_factor.cpp","group":"local","local":true}
