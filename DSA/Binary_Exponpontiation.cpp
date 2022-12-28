@@ -43,3 +43,9 @@ ll sub(ll x, ll y)
 {
     return (x % M - y % M + M) % M;
 }
+ll div(ll x, ll y)
+{
+     return mul(x, binaryExpoRRec(y, M - 2));
+}
+
+
