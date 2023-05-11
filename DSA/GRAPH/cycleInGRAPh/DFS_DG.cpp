@@ -15,7 +15,7 @@ bool dfs(int source) {
                 return true;
             }
         }
-        if (vis[child] == 1 && mark[child] == 1) {
+        else if (vis[child] == 1 && mark[child] == 1) {
             return true;
         }
     }
