@@ -13,5 +13,6 @@ void isPrime()
             }
 }
 
-
-.
+//Using such implementation the algorithm consumes  
+// O(n) of the memory (obviously) and performs  
+// O(nloglogn)  (see next section).
